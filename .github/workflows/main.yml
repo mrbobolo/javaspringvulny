@@ -5,7 +5,8 @@ on:
       - main
       - master
       - dev
-workflow_dispatch:
+  workflow_dispatch:
+    
 jobs:
   build:
     runs-on: ubuntu-latest
