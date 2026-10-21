@@ -19,5 +19,5 @@ jobs:
           project_name: javaspringvulny
           cx_tenant: serge
           base_uri: https://eu-2.ast.checkmarx.net/ 
-          api_key: ${{ secrets.CX_KEYFORGITHUB }}
+          additional_params: --apikey ${{ secrets.CX_KEYFORGITHUB }}
 
